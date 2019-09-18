@@ -205,7 +205,6 @@ def main(output, dataset, datadir, batch_size, lr, step, iterations,
     params = dict()
     params['scale'] = 5.0
     params['alpha'] = 5.0
-    # params['beta'] = 1.0
     steps, vals = [], []
     valid_steps, valid_vals = [], []
     for im, label in roundrobin_infinite(*loaders):
