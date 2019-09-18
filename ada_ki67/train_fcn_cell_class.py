@@ -52,7 +52,7 @@ def get_weight_mask(y_true, params = None):
     if params is not None:
         y_true = y_true.float() / 255.0 * params['scale']
         mean_label = torch.mean(torch.mean(y_true, dim = -1, keepdim=True), dim=-2, keepdim=True)
-        y_mask = params['beta']*y_true + params['alpha']*mean_label
+        y_mask = y_true / params['scale'] + params['alpha'] * mean_label / params['scale']
     else:
         y_mask = torch.ones(y_true.size())
     return y_true, y_mask
@@ -204,8 +204,8 @@ def main(output, dataset, datadir, batch_size, lr, step, iterations,
     losses = deque(maxlen=10)
     params = dict()
     params['scale'] = 5.0
-    params['alpha'] = 5.0 / params['scale']
-    params['beta'] = 1.0 / params['scale']
+    params['alpha'] = 5.0
+    # params['beta'] = 1.0
     steps, vals = [], []
     valid_steps, valid_vals = [], []
     for im, label in roundrobin_infinite(*loaders):
