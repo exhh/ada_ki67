@@ -7,4 +7,7 @@ For Stage 2, the usage of the source codes is shown as follows:
 
 For training: ./train_fcn_cell_class.sh For testing: ./eval_fcn_cell_class.sh
 
-References: [1] Zhang et al. Generative Adversarial Domain Adaptation for Nucleus Quantification in Images of Tissue Immunohistochemically Stained for Ki-67, JCO Clinical Cancer Informatics, 2020.
+References: 
+[1] Zhang et al. Generative Adversarial Domain Adaptation for Nucleus Quantification in Images of Tissue Immunohistochemically Stained for Ki-67, JCO Clinical Cancer Informatics, 2020.\
+
+[2] Xing et al. Adversarial Domain Adaptation and Pseudo-Labeling for Cross-Modality Microscopy Image Quantification. MICCAI 2019.
