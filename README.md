@@ -6,7 +6,9 @@ The method described in the manuscript include two stages: (1) adversarial image
 
 For Stage 2, the usage of the source codes is shown as follows:
 
-For training: ./train_fcn_cell_class.sh For testing: ./eval_fcn_cell_class.sh
+For training: ./train_fcn_cell_class.sh 
+
+For testing: ./eval_fcn_cell_class.sh
 
 References:
 
