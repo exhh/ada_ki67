@@ -1,1 +1,1 @@
-from . import PNET
+from . import PNET, IHC
