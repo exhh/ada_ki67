@@ -14,4 +14,19 @@ References:
 
 [1] Zhang et al. Generative Adversarial Domain Adaptation for Nucleus Quantification in Images of Tissue Immunohistochemically Stained for Ki-67, JCO Clinical Cancer Informatics, 2020.
 
+
+Domain Adaptation for Nucleus Detection
+
+This code is used to detect individual nuclei with generative adversarial learning for different microscopy modality image data, which are acquired from different microscopes. The code is implemented with PyTorch (version 0.4.1, https://pytorch.org/) on a Ubuntu Linux machine. 
+
+The method described in the manuscript include three stages: (1) adversarial image translation, (2) deep regression model, and (3) fine-tuning with pseudo-labels. This repository contains the source codes for Stages 2 and 3, i.e., deep regression model that detects individual nuclei in translated image data. The image translation in Stage 1 is achieved by using the codes provided by CycleGAN, https://junyanz.github.io/CycleGAN/, and CyCADA, https://github.com/jhoffman/cycada_release.
+
+For Stage 2, the usage of the source codes is shown as follows:
+
+For training: ./train_fcn_cell_class.sh 
+
+For testing: ./eval_fcn_cell_class.sh
+
+References:
+
 [2] Xing et al. Adversarial Domain Adaptation and Pseudo-Labeling for Cross-Modality Microscopy Image Quantification. MICCAI 2019.
