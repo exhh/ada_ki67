@@ -31,7 +31,7 @@ For testing: ./eval_detection.sh
 <br/>
 For pseudo-label generation based on the estimated nucleus positions on real target training images, please refer to the paper: Efficient and robust cell detection: A structured regression approach, Medical Image Analysis, 2018.
 
-<br/>
+
 References:
 
 [2] Xing et al. Adversarial Domain Adaptation and Pseudo-Labeling for Cross-Modality Microscopy Image Quantification. MICCAI 2019.
