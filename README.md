@@ -1,4 +1,4 @@
-**Domain Adaptation for Nucleus Identification
+## Domain Adaptation for Nucleus Identification
 
 This code is used to identify individual nuclei with generative adversarial learning for cross-site histopathological image data, which are acquired from different institutions. The code is implemented with PyTorch (version 0.4.1, https://pytorch.org/) on a Ubuntu Linux machine. 
 
@@ -16,7 +16,7 @@ References:
 [1] Zhang et al. Generative Adversarial Domain Adaptation for Nucleus Quantification in Images of Tissue Immunohistochemically Stained for Ki-67, JCO Clinical Cancer Informatics, 2020.<br/><br/><br/>
 
 
-**Domain Adaptation for Nucleus Detection
+## Domain Adaptation for Nucleus Detection
 
 This code is used to detect individual nuclei with generative adversarial learning for different microscopy modality image data, which are acquired from different microscopes. The code is implemented with PyTorch (version 0.4.1, https://pytorch.org/) on a Ubuntu Linux machine. 
 
