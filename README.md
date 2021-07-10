@@ -10,6 +10,7 @@ For training: ./train_fcn_cell_class.sh
 
 For testing: ./eval_fcn_cell_class.sh
 
+<br/>
 References:
 
 [1] Zhang et al. Generative Adversarial Domain Adaptation for Nucleus Quantification in Images of Tissue Immunohistochemically Stained for Ki-67, JCO Clinical Cancer Informatics, 2020.<br/><br/><br/>
@@ -27,9 +28,10 @@ For training: ./train_detection.sh
 
 For testing: ./eval_detection.sh
 
-
+<br/>
 For pseudo-label generation based on the estimated nucleus positions on real target training images, please refer to the paper: Efficient and robust cell detection: A structured regression approach, Medical Image Analysis, 2018.
 
+<br/>
 References:
 
 [2] Xing et al. Adversarial Domain Adaptation and Pseudo-Labeling for Cross-Modality Microscopy Image Quantification. MICCAI 2019.
